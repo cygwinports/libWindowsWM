@@ -1,6 +1,6 @@
 libWindowsWM
 ------------------------------------------
-Xorg Windows rootless window manager extension library
+X.Org Windows rootless window manager extension library
 
 Runtime requirements:
   cygwin-1.5.20-1
