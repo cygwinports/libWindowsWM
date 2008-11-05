@@ -1,0 +1,9 @@
+inherit xorg
+
+PATCH_URI="1.0.0-windowswm-manpage.patch"
+
+PKG_NAMES="${PN} ${PN}7 ${PN}-devel"
+PKG_HINTS="src runtime devel"
+libWindowsWM_CONTENTS=	# empty
+libWindowsWM7_CONTENTS="usr/bin/cygWindowsWM-7.dll usr/share/doc/"
+libWindowsWM_devel_CONTENTS="usr/lib usr/share/man/"
