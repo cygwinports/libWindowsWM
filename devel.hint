@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libWindowsWM7 libX11-devel libXext-devel windowswmproto xextproto
+requires: libWindowsWM7 libX11-devel libXext-devel windowswmproto xextproto
 external-source: libWindowsWM
 sdesc: "X.Org Windows rootless window manager extension library (development)"
 ldesc: "X.Org Windows rootless window manager extension library"
