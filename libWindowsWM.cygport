@@ -1,0 +1,12 @@
+inherit xorg
+
+NAME="libWindowsWM"
+VERSION=1.0.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X rootless Windows window manager extension library"
+DESCRIPTION="X rootless Windows window manager extension library"
+
+PKG_NAMES="${NAME}7 ${NAME}-devel"
+libWindowsWM7_CONTENTS="usr/bin/cygWindowsWM-7.dll usr/share/doc/"
+libWindowsWM_devel_CONTENTS="usr/lib usr/share/man/"
